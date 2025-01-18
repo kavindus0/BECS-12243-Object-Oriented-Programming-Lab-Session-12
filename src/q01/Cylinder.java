@@ -30,7 +30,9 @@ private double height = 1.0;
         this.height = height;
     }
 
-    //getvikl
+ public double getVolume() {
+        return 2*Math.PI*height*super.getRadius();
+    }
 
     @Override
 public String toString(){
