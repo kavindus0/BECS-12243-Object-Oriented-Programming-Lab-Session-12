@@ -12,7 +12,7 @@ public class Circle {
         this.radius = radius;
     }
 
-    public Circle(String color, double radius) {
+    public Circle( double radius,String color) {
         this.color = color;
         this.radius = radius;
     }

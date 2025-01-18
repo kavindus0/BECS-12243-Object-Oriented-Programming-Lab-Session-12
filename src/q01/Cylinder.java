@@ -18,7 +18,7 @@ private double height = 1.0;
     }
 
     public Cylinder( double radius, double height,String color) {
-        super(color, radius);
+        super( radius,color);
         this.height = height;
     }
 
