@@ -38,4 +38,11 @@ public class Circle {
     public String toString() {
         return "Circle[radius=r,color=c]";
     }
+
+
+    public double getArea() {
+        return 2*Math.PI*radius;
+    }
+
+
 }
