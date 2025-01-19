@@ -1,6 +1,6 @@
 package q06;
 
-public abstract class Shape {
+public abstract class Shape implements Sign{
 
     String color;
 
@@ -9,7 +9,5 @@ public abstract class Shape {
     }
 
     public abstract void fitText(String n);
-
-
 
 }
