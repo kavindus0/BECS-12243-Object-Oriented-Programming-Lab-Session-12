@@ -1,5 +1,6 @@
 package q06;
 
 public interface Sign {
-    void fitText();
+
+    void fitText(String n);
 }
